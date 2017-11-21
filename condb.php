@@ -25,7 +25,7 @@ if(isset($_POST['signup_submit']))
 		}
 			else
 			{
-				echo "<script>alert('Password do not match');
+				echo "<script>alert('Password do not Match..!!');
 					window.location.href='registrationpage.php'; </script>";
 
 				}
