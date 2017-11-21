@@ -11,7 +11,7 @@
     <form method="POST" action="condb.php">
     <h1>Sign up</h1>
     
-    <input type="text" name="email" placeholder="E-mail" /required>
+    <input type="email" name="email2" placeholder="E-mail" /required>
     <input type="password" name="password" placeholder="Password" required/>
     <input type="password" name="password2" placeholder="Retype password" required/>
     
@@ -23,7 +23,7 @@
     <form method="POST" action="con_login.php">
     <h1>Sign In</h1>
 
-    <input type="text" name="email1" placeholder="E-mail" required/>
+    <input type="email" name="email1" placeholder="E-mail" required/>
     <input type="password" name="password3" placeholder="Password" rerquired/>
     
     <input type="submit" name="login_submit" value="Log In" />
